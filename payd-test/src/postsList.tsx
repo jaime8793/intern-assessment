@@ -81,7 +81,8 @@ const PostsList: React.FC = () => {
             Previous
           </Button>
           <Text>Page {page}</Text>
-          <Button onClick={() => setPage((prev) => prev + 1)}>Next</Button>{" "}
+          <Button onClick={() => setPage((prev) => prev + 1)}
+          >Next</Button>{" "}
           {/* Next page button */}
         </Box>
       </Box>

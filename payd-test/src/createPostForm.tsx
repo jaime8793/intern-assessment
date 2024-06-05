@@ -133,7 +133,8 @@ const CreatePostForm: React.FC = () => {
             animation={`${fadeIn} 0.5s ease-in-out`}
             style={{ animationDelay: `${index * 0.1}s` }}
           >
-            <Text fontWeight="bold">{post.title}</Text>
+            <Text mt={4}>User ID: {post.userId}</Text>
+            <Text mt={4} fontWeight="bold">{post.title}</Text>
             <Text mt={4}>{post.body}</Text>
           </Box>
         ))}
