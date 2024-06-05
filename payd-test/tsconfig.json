@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Set the JavaScript version to compile to
+    "module": "ES6", // Set the module system
+    "jsx": "react-jsx", // Enable JSX support
+    "moduleResolution": "node", // How module resolution works
+    "esModuleInterop": true, // Allows default imports from modules with no default export
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true // Ensure that casing is consistent across imports
+  },
+  "include": ["src"] // Include the source files
+}
